@@ -5,7 +5,7 @@ int main() {
     scanf("%d", &n);
 
     if (n % 2 == 0) {
-        printf("CHAN\n";
+        printf("CHAN\n");
     } else {
         printf("%LE\n");
     }
