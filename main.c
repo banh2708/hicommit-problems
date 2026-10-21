@@ -13,7 +13,7 @@ int main() {
   else if(25<t && t<35){
     printf("NONG");
   }
-  else if("t<35"){
+  else if(t<35){
     printf("RAT NONG");
   }
   return 0;
