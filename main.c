@@ -4,11 +4,11 @@ int main(){
     scanf("%d", &n);
     if(n % 2 == 0)
     {
-        printf("CHAN\n");
+        printf("CHAN");
     }
     else
     {
-        printf("%LE\n");
+        printf("LE");
     }
     return 0;
 }
