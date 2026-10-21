@@ -2,16 +2,15 @@
 
 int main() {
     int a, b, c;
+    scanf("%d %d %d", &a, &b, &c);
 
-    printf("Nhap 3 so: ");
-    scanf("%d%d%d", &a, &b, &c);
-
-    if (a >= b && a >= c)
-        printf("So lon nhat la %d", a);
-    else if (b >= a && b >= c)
-        printf("So lon nhat la %d", b);
-    else
-        printf("So lon nhat la %d", c);
-
-    return 0;
+   if(a>b>c){
+     printf("&a");
+   }else if(b>a>c){
+     printf("&b");
+   }else(c>a>b){
+     printf("&c");
+   }
+   return 0;
+   
 }
