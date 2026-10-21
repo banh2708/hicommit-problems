@@ -1,9 +1,7 @@
 #include <stdio.h>
-
 int main() {
     int t;
     scanf("%d, &t");
-
   if(t<15){
     printf("LANH");
   }
@@ -13,7 +11,7 @@ int main() {
   else if(25<t && t<35){
     printf("NONG");
   }
-  else {
+  else{
     printf("RAT_NONG");
   }
   return 0;
