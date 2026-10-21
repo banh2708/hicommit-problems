@@ -9,6 +9,5 @@ int main() {
     } else {
         printf("LE");
     }
-
     return 0;
 }
