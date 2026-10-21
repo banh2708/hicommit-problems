@@ -4,9 +4,9 @@ int main() {
   int n;
   
   printf ("Nhap so nguyen");
-  scanf("%d, &n");
+  scanf("%d", &n);
 
-  if(n%2!=0);
+  if(n % 2 ==0);
   {
     printf("CHAN");
     
