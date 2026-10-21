@@ -8,13 +8,13 @@ int main() {
     printf("LANH");
   }
   else if(15<t && t<25){
-    printf("MAT";)
+    printf("MAT");
   }
   else if(25<t && t<35){
     printf("NONG");
   }
   else if("t<35"){
-    printf("RAT NONG")
+    printf("RAT NONG");
   }
   return 0;
 }
