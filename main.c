@@ -8,12 +8,12 @@ int main() {
 
   if(n%2 ==0);
   {
-    printf("CHAN");
+    printf("&d CHAN");
     
   }
   else 
   {
-    prinf("LE");
+    printf("%d LE");
   
   }
   return 0;
