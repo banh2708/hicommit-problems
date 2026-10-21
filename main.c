@@ -6,14 +6,14 @@ int main() {
   printf ("Nhap so nguyen");
   scanf("%d, &n");
 
-  if(n%2 ==0);
+  if(n%2!=0);
   {
-    printf("&d CHAN");
+    printf("CHAN");
     
   }
   else 
   {
-    printf("%d LE");
+    printf("LE");
   
   }
   return 0;
